@@ -17,7 +17,7 @@ void setup(){
   delay(3000);
   Serial.println("Iniciando");
  
-  WiFi.begin("network","password");
+  WiFi.begin("IoT","1t3s0IoT23");
     while ((!(WiFi.status() == WL_CONNECTED))){
     Serial.print("......");
     delay(300);
