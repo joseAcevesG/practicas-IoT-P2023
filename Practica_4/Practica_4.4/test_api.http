@@ -1,0 +1,14 @@
+GET https://things.ubidots.com/api/v1.6/devices/practica43/humedad
+Content-Type: application/json
+X-Auth-Token: BBUS-5VhE9mu4Pz5nZgErRsovop4ww0Riv8
+
+
+### Post ###
+POST https://things.ubidots.com/api/v1.6/devices/practica43
+Content-Type: application/json
+X-Auth-Token: BBUS-5VhE9mu4Pz5nZgErRsovop4ww0Riv8
+
+{
+  "temperatura": 25,
+  "humedad": 50
+}
